@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cover1 {
+    background-color: rgba(14, 29, 52, 0.9);
+    background-image: url(./assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+#dropdown1:hover #drop2 {
+    display: block;
+}
+
+#drop2 {
+    display: none;
+}
+
+/* ---- */
+
+.banner {
+    background-image: url(assets/hero-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(14, 29, 52, 0.9);
+    width: 100%;
+    min-height: 100vh;
+}
+
+.input {
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.input input {
+    background: none;
+    outline: none;
+    border: none;
+    width: 70%;
+}
+
+.input button {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 8px;
+    width: 20%; 
+}
+
+span {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+/* --- */
+
+
+.cover2-index .col-12 {
+    display: flex;
+}
+
+.cover2-index .col-12:hover {
+    color: blue;
+}
+
+.cover2-index .col-12 i:hover {
+    color: blue;
+}
+
+.cover2-index .col-12 a {
+    text-decoration: none;
+    color: rgba(14, 29, 52, 0.9);
+    font-weight: 700;
+}
+
+.cover2-index .col-12 a:hover {
+    color: #001973;
+}
+
+.cover2-index .col-12 i {
+    color: #001973;
+    padding: 0.5rem;
+    font-size: 2.5rem;
+}
+
+.cover3 h3 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: var(--font-secondary);
+    color: #001f8d;
+    /* width: 140px; */
+}
+
+.cover3 ul i {
+    color: blue;
+    font-size: 3rem;
+    padding-right: 10px;
+    
+}
+
+.cover3 ul li h5 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #19335c;
+    /* width: 30rem */
+}
+
+.cover3 .col-12 li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-services .container {
+    display: block;
+    /* width: auto; */
+    /* overflow: hidden; */
+}
+
+.our-services h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.our-services p {
+    padding: 1rem;
+    margin-top: -1.5rem;
+}
+
+.our-services img {
+    width: 100%;
+}
+
+.our-services .card {
+    overflow: hidden;
+    margin-bottom: 22px;
+}
+
+.our-services img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.our-services h2 {
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+    color: #001f8d;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.cover5 {
+    background: linear-gradient(rgb(0 0 0 / 85%), rgb(1 1 36 / 62%)), url(./assets/cta-bg.jpg);
+    background-attachment: fixed;
+    height: 25rem;
+}
+
+.cover5 .container {
+    display: block;
+    text-align: center;
+    padding-top: 7rem;
+
+}
+
+.cover5 .btn {
+    padding: 0.8rem 2.5rem;
+    border: 2px solid white;
+    color: white;
+    font-weight: 600;
+}
+
+.cover5 .btn:hover {
+    background-color: rgba(5, 114, 248, 0.8);
+}
+
+.cover7 h2 {
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+    color: #001f8d;
+    font-weight: 700;
+    font-size: 32px;
+    /* margin-left: 30rem; */
+}
+
+.cover7 .col-4 {
+    /* border: 1px solid gray; */
+    height: 28rem;
+
+}
+
+.cover7 .col-4 .btn {
+    /* color: blue; */
+    font-weight: 500;
+}
+
+.cover7 .col-4 .btn:hover {
+    color: white;
+    background-color: blue;
+}
+
+.cover7 ul i {
+    font-size: 15px;
+    color: green;
+}
+
+.cover7 ul li {
+    font-size: 17px;
+    margin-bottom: 7px;
+}
+
+.cover8 {
+    /* background-image: url(./assets/testimonials-bg.jpg); */
+    background-size: cover;
+    height: 28rem;
+
+}
+
+.cover9 .container .accordian-header button {
+    border: none;
+    padding: 12px;
+    font-size: 17px;
+    font-weight: 600;
+    width: 100%;
+    /* margin-left: 3rem; */
+    text-align: left;
+}
+
+.cover10 {
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0e1d34;
+    /* padding: 10px; */
+}
+
+.cover10 .container .col-12 li a {
+    text-decoration: none;
+    
+    color: gray;
+}
+
+.cover10 .container .col-12 li a:hover {
+    color: white;
+}
+
+/* about */
+
+.cover2-about {
+    background: linear-gradient(rgb(0 0 0 / 80%), rgb(1 1 36 / 80%)), url(./assets/page-header.jpg);
+    background-attachment: fixed;
+    height: 25rem;
+}
+
+
+
+.cover4 .col-12 span {
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.team .social-item i:hover {
+    color: blue;
+}
+
+#topbtn {
+    padding: 0.5rem 0.8rem;
+    /* background-color: burlywood; */
+    /* color: black; */
+    font-weight: 600;
+    outline: none;
+    border: none;
+    /* border-radius: 0.5rem; */
+    right: 1rem;
+    bottom: 1rem;
+    position: fixed;
+}
+
+#topbtn:hover {
+    background-color: blue;
+    color: white;
+}

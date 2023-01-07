@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./bootstrap-5.1.3/dist/css/bootstrap.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+
+    <div class="banner">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-faded" style="background-color: rgba(14, 29, 52, 0.63);">
+            <div class="container">
+                <a href="#" class="navbar-brand" style="font-size: 2rem; font-weight: 750; color: white;">Logis</a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#touch">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="touch">
+                    <ul class="navbar-nav text-white ms-auto">
+                        <li class="nav-item"><a href="./index.html" class="nav-link" style="color: white;">Home</a></li>
+                        <li class="nav-item"><a href="./About.html" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="./Services.html" class="nav-link">Service</a></li>
+                        <li class="nav-item"><a href="./Pricing.html" class="nav-link">Pricing</a></li>
+                        <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle"
+                                data-bs-toggle="dropdown" data-bs-target="#drop">Drop-Down</a>
+                            <ul class="dropdown-menu" id="drop" style="height: 15rem; width: 12rem;">
+                                <li><a href="#" class="dropdown-item">Drop Down 1</a></li>
+                                <li class="dropdown" id="dropdown1"><a href="#" class="dropdown-item dropdown-toggle"
+                                        data-bs-toggle="dropdown" data-bs-target="#drop2">Deep Drop Down</a>
+                                    <ul class="dropdown-menu" id="drop2"
+                                        style="height: 15rem; width: 12rem; right: 11.8rem; text-align: center; ">
+                                        <li><a href="#" class="dropdown-item">Deep Drop Down 1</a></li>
+                                        <li><a href="#" class="dropdown-item">Deep Drop Down 2</a></li>
+                                        <li><a href="#" class="dropdown-item">Deep Drop Down 3</a></li>
+                                        <li><a href="#" class="dropdown-item">Deep Drop Down 4</a></li>
+                                        <li><a href="#" class="dropdown-item">Deep Drop Down 5</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="dropdown-item">Drop Down 2</a></li>
+                                <li><a href="#" class="dropdown-item">Drop Down 3</a></li>
+                                <li><a href="#" class="dropdown-item">Drop Down 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                        <button class="btn btn-primary">Get a Quote</button>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <!-- banner content section -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 col-md-12 col-sm-12 mt-5">
+                    <div class="text text-white">
+                        <h1 class="heading mt-5" style="font-weight: 800;">Your Lightning Fast Delivery Partner</h1>
+                        <p style="font-weight: 400; text-align: justify;" class="mt-3">Facere distinctio molestiae nisi
+                            fugit tenetur repellat non praesentium nesciunt optio quis sit odio nemo quisquam. eius quos
+                            reiciendis eum vel eum voluptatem eum maiores eaque id optio ullam occaecati odio est
+                            possimus vel reprehenderit</p>
+                        <form action="">
+                            <div class="input">
+                                <input type="text" placeholder="ZIP code or City">
+                                <button class="form-btn btn-primary">Submit</button>
+                            </div>
+                        </form>
+                        <div class="row text-center mt-5">
+                            <div class=" col-12 col-lg-3 col-md-6 col-sm-6  col-xs-6 text-center">
+                                <span>232</span>
+                                <hr class="text-white"
+                                    style="width: 20px; opacity: 1; background-color: rgb(28, 119, 204); padding: 1.5px; margin: auto; ">
+                                <p class="font mt-2" style="font-weight:600;">Clients</p>
+                            </div>
+                            <div class="col-12 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                                <span>521</span>
+                                <hr class="text-white"
+                                    style="width:20px; opacity: 1; background-color: rgb(28, 119, 204); padding: 1.5px; margin: auto;">
+                                <p class="font mt-2" style="font-weight:600;">Projects</p>
+                            </div>
+                            <div class="col-12 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                                <span>1453</span>
+                                <hr class="text-white"
+                                    style="width:20px;  opacity: 1; background-color: rgb(28, 119, 204); padding: 1.5px; margin: auto;">
+                                <p class="font mt-2" style="font-weight:600;">Support</p>
+                            </div>
+                            <div class="col-12 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                                <span>32</span>
+                                <hr class="text-white"
+                                    style="width:20px; opacity: 1; background-color: rgb(28, 119, 204); padding: 1.5px; margin: auto;">
+                                <p class="font mt-2" style="font-weight:600;">Workers</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-md-12 col-sm-12 mt-5">
+                    <img src="assets/hero-img.svg" alt="" class="img-fluid">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cover2-index">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+                    <i class="fa-solid fa-cart-flatbed"></i>
+                    <div>
+                        <h4 class="title">Lorem Ipsum</h4>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem architecto
+                            nam
+                            deleniti soluta
+                            nihil,
+                            officia facilis nobis! Dignissimos, assumenda molestias!</p>
+                        <a href="">Learn More →</a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+                    <i class="fa-solid fa-truck"></i>
+                    <div>
+                        <h4 class="title">Dolor Sitema</h4>
+                        <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto doloribus
+                            rem
+                            iste adipisci
+                            magnam
+                            impedit, nisi architecto maiores fugit aperiam.</p>
+                        <a href="">Learn More →</a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+                    <i class="fa-solid fa-truck-ramp-box"></i>
+                    <div>
+                        <h4 class="title">Sed ut perspiciatis</h4>
+                        <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum aliquam
+                            ratione pariatur ipsum
+                            voluptatem sapiente quidem commodi laboriosam cum provident?</p>
+                        <a href="">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cover3 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 col-md-4 col-sm-12">
+                    <h3>About Us</h3>
+
+                    <p class="description">Dolor iure expedita id fuga asperiores qui sunt
+                        consequatur minima. Quidem voluptas deleniti.
+                        Sit quia molestiae quia quas qui magnam itaque veritatis dolores. Corrupti totam ut eius
+                        incidunt reiciendis veritatis asperiores placeat.</p>
+                    <ul class="list" style="list-style: none;">
+                        <li>
+                            <i class="bi bi-diagram-3"></i>
+                            <div>
+                                <h5>Ullamco laboris nisi ut aliquip consequat</h5>
+                                <p class="description">Magni facilis facilis repellendus cum
+                                    excepturi quaerat praesentium libre trade</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="bi bi-fullscreen-exit"></i>
+                            <div>
+                                <h5>Magnam soluta odio exercitationem reprehenderi</h5>
+                                <p class="description">Quo totam dolorum at pariatur aut
+                                    distinctio dolorum laudantium illo direna pasata
+                                    redi</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="bi bi-broadcast"></i>
+                            <div>
+                                <h5>Voluptatem et qui exercitationem</h5>
+                                <p class="description">Et velit et eos maiores est tempora et quos
+                                    dolorem autem tempora incidunt maxime
+                                    veniam</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-6 col-md-4 col-sm-12">
+                    <img src="./assets/about.jpg" class="img-fluid">
+                    <a class="glightbox play-btn"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="our-services">
+        <div class="container">
+            <div class="header" style="text-align: center;">
+                <h2>OUR SERVICES</h2>
+
+                <!-- <hr class="text-blue" style="width: 3rem; padding: 2px; margin-left: 33.5rem; background-color: #001f8d;"> -->
+            </div>
+            <div class="row ">
+                <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/storage-service.jpg" alt="">
+                        </div>
+                        <h3>STORAGE</h3>
+                        <P>Cumque eos in qui numquam. Aut aspernatur perferendis sed atque quia voluptas quisquam
+                            repellendus temporibus itaqueofficiis odit</P>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/logistics-service.jpg" alt="">
+                        </div>
+                        <h3>LOGISTICS</h3>
+                        <p>Asperiores provident dolor accusamus pariatur dolore nam id audantium ut et iure incidunt
+                            molestiae dolor ipsam ducimus occaecati nisi</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/cargo-service.jpg" alt="">
+                        </div>
+                        <h3>CARGO</h3>
+                        <p>Dicta quam similique quia architecto eos nisi aut ratione aut ipsum reiciendis sit doloremque
+                            oluptatem aut et molestiae ut et nihil</p>
+                    </div>
+                </div>
+                <!-- </div>  -->
+                <!-- <div class="row"> -->
+                <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/trucking-service.jpg" alt="">
+                        </div>
+                        <h3>TRUCKING</h3>
+                        <P>Dicta quam similique quia architecto eos nisi aut ratione aut ipsum reiciendis sit doloremque
+                            oluptatem aut et molestiae ut et nihil</P>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/packaging-service.jpg" alt="">
+                        </div>
+                        <h3>PACKAGING</h3>
+                        <P>Illo consequuntur quisquam delectus praesentium modi dignissimos facere vel cum onsequuntur
+                            maiores beatae consequatur magni voluptates</P>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/warehousing-service.jpg" alt="">
+                        </div>
+                        <h3>WAREHOUSING</h3>
+                        <P>Quas assumenda non occaecati molestiae. In aut earum sed natus eatae in vero. Ab modi
+                            quisquam
+                            aut nostrum unde et qui est non quo nulla</P>
+                    </div>
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="cover5 mt-5">
+        <div class="container">
+            <h2 class="header" style="color: white; font-size: 1.8rem; font-weight: 700;">CALL TO ACTION</h2>
+            <p class="content" style="color: white; font-weight: 500;">Duis aute irure
+                dolor in reprehenderit in
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum.</p>
+            <button class="btn" style="color:white;">Call To Action</button>
+        </div>
+    </div>
+
+    <div class="cover6" style="margin-top: 5rem;">
+        <div class="container" style="margin-bottom: 8rem;">
+
+            <div class="row">
+                <div class="col-12 col-lg-5 col-md-4 col-sm-12">
+                    <img src="./assets/features-1.jpg" alt="" class="img img-fluid">
+                </div>
+                <div class="col-12 col-lg-7 col-md-4 col-sm-12 mt-3">
+                    <h2 class="title" style="color: #001973; font-size: 28px;">Voluptatem dignissimos
+                        provident quasi corporis voluptates sit
+                        assumenda.</h2>
+                    <p class="content" style="font-style: italic;">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed
+                        do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+                    <ul class="list" style="list-style: none;">
+
+                        <li><i class="fa-solid fa-check" style="color: blue; font-size: 14px; padding-right: 10px;"></i>
+                            Ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</li>
+
+                        <li><i class="fa-solid fa-check" style="color: blue; font-size: 14px; padding-right: 10px;"></i>
+                            Duis aute irure dolor in reprehenderit in voluptate
+                            velit.</li>
+
+                        <li><i class="fa-solid fa-check" style="color: blue; font-size: 14px; padding-right: 10px;"></i>
+                            Ullam est qui quos consequatur eos accusamus.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12 col-lg-7 col-md-4 col-sm-12 pt-5">
+                    <h2 class="title" style="color: #001973; font-size: 28px;">Corporis temporibus maiores
+                        provident</h2>
+                    <p class="content" style="font-style: italic;">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                        aute
+                        irure dolor in
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    </p>
+                </div>
+                <div class="col-12 col-lg-5 col-md-4 col-sm-12">
+                    <img src="./assets/features-2.jpg" alt="" class="img img-fluid">
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12 col-lg-5 col-md-4 col-sm-12">
+                    <img src="./assets/features-3.jpg" alt="" class="img img-fluid">
+                </div>
+                <div class="col-12 col-lg-7 col-md-4 col-sm-12 pt-5">
+                    <h2 class="title" style="color: #001973; font-size: 28px;">Sunt consequatur ad ut est nulla
+                        consectetur
+                        reiciendis animi voluptas</h2>
+                    <p class="content" style="font-style: italic;">Cupiditate placeat cupiditate placeat
+                        est
+                        ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor
+                        doloremque.</p>
+                    <ul class="list" style="list-style: none;">
+
+                        <li><i class="fa-solid fa-check" style="color: blue; font-size: 14px; padding-right: 10px;"></i>
+                            Ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</li>
+
+                        <li><i class="fa-solid fa-check" style="color: blue; font-size: 14px; padding-right: 10px;"></i>
+                            Duis aute irure dolor in reprehenderit in voluptate
+                            velit.</li>
+
+                        <li><i class="fa-solid fa-check" style="color: blue; font-size: 14px; padding-right: 10px;"></i>
+                            Ullam est qui quos consequatur eos accusamus.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12 col-lg-7 col-md-4 col-sm-12 pt-5">
+                    <h2 class="title" style="color: #001973; font-size: 28px;">Quas et necessitatibus eaque impedit
+                        ipsum
+                        animi consequatur incidunt in</h2>
+                    <p class="content" style="font-style: italic;">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                        aute
+                        irure dolor in
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    </p>
+                </div>
+                <div class="col-12 col-lg-5 col-md-4 col-sm-12">
+                    <img src="./assets/features-4.jpg" alt="" class="img img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cover7" style="margin-top: 5rem;">
+        <div class="container">
+            <div class="header" style="text-align: center;">
+                <h2>PRICING</h2>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-4 col-md-4 col-sm-12" style="border: 1px solid white; box-shadow: 0px 0px 5px;">
+                    <div class="card-item">
+                        <ul class="list" style="list-style: none; color: gray;">
+                            <h3 class="price"
+                                style=" color: #0e1d34; font-size: 20px; font-weight: 550; margin-bottom: 1.5rem;">Free
+                                Plan
+                            </h3>
+                            <h4 class="amount"
+                                style="color: blue; font-size: 50px; font-weight: 480; margin-bottom: 2rem;">
+                                <sup>$</sup>0
+                            </h4>
+                            <li><i class="fa-solid fa-check"></i>Quam adipiscing vitae proin</li>
+                            <li><i class="fa-solid fa-check"></i>Nec feugiat nisl pretium</li>
+                            <li><i class="fa-solid fa-check"></i>Nec feugiat nisl pretium</li>
+                            <li><strike><i class="fa-solid fa-xmark" style="color: gray;"></i>Pharetra massa massa
+                                    ultricies</strike></li>
+                            <li><strike><i class="fa-solid fa-xmark" style="color: gray;"></i>Massa ultricies mi quis
+                                    hendrerit</strike></li>
+                        </ul>
+                        <button class="btn"
+                            style="padding: 0.8rem 2.5rem; margin-top: 1rem;  border: 1px solid blue;">Buy Now</button>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-4 col-sm-12" style="border: 1px solid white; box-shadow: 0px 0px 5px;">
+                    <div class="card-item">
+                        <ul class="list" style="list-style: none; color: gray;">
+                            <h3 class="price"
+                                style=" color: #0e1d34; font-size: 20px; font-weight: 550 ; margin-bottom: 1.5rem;">Free
+                                Plan
+                            </h3>
+                            <h4 class="amount"
+                                style="color: blue; font-size: 50px; font-weight: 480; margin-bottom: 2rem;">
+                                <sup>$</sup>29
+                            </h4>
+                            <li><i class="fa-solid fa-check"></i>Quam adipiscing vitae proin</li>
+                            <li><i class="fa-solid fa-check"></i>Nec feugiat nisl pretium</li>
+                            <li><i class="fa-solid fa-check"></i>Nec feugiat nisl pretium</li>
+                            <li><i class="fa-solid fa-check"></i>Pharetra massa massa ultricies</li>
+                            <li><i class="fa-solid fa-check"></i>Massa ultricies mi quis hendrerit</li>
+                        </ul>
+                        <button class="btn btn-primary" style="padding: 0.8rem 2.5rem; margin-top: 1rem;">Buy
+                            Now</button>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-4 col-sm-12" style="border: 1px solid white; box-shadow: 0px 0px 5px;">
+                    <div class="card-item">
+                        <ul class="list" style="list-style: none; color: gray;">
+                            <h3 class="price"
+                                style=" color: #0e1d34; font-size: 20px; font-weight: 550 ; margin-bottom: 1.5rem;">Free
+                                Plan
+                            </h3>
+                            <h4 class="amount"
+                                style="color: blue; font-size: 50px; font-weight: 480; margin-bottom: 2rem;">
+                                <sup>$</sup>49
+                            </h4>
+                            <li><i class="fa-solid fa-check"></i>Quam adipiscing vitae proin</li>
+                            <li><i class="fa-solid fa-check"></i>Nec feugiat nisl pretium</li>
+                            <li><i class="fa-solid fa-check"></i>Nec feugiat nisl pretium</li>
+                            <li><i class="fa-solid fa-check"></i>Pharetra massa massa ultricies</li>
+                            <li><i class="fa-solid fa-check"></i>Massa ultricies mi quis hendrerit</li>
+                        </ul>
+                        <button class="btn"
+                            style="padding: 0.8rem 2.5rem; margin-top: 1rem; border: 1px solid blue;">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="cover8"
+        style="background-image: url(./assets/testimonials-bg.jpg); background: linear-gradient(rgb(0 0 0 / 85%), rgb(1 1 36 / 62%)), url(./assets/cta-bg.jpg); margin-top: 5rem;">
+        <div class="container">
+            <div class="carousel slide" data-bs-slide="carousel" id="crsl">
+                <div class="carousel-indicators">
+                    <button data-bs-target="#crsl" data-bs-slide-to="0" class="active"></button>
+                    <button data-bs-target="#crsl" data-bs-slide-to="1"></button>
+                    <button data-bs-target="#crsl" data-bs-slide-to="2"></button>
+                    <button data-bs-target="#crsl" data-bs-slide-to="3"></button>
+                    <button data-bs-target="#crsl" data-bs-slide-to="4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="text-center mt-5">
+                            <img src="./assets/testimonials-1.jpg" alt="" style="border-radius: 50%; width: 10%;">
+                            <div class="text mt-4 pb-5 text-white">
+                                <h3>Saul Goodman</h3>
+                                <h6>Ceo & Founder</h6>
+                                <div class="star" style="color: #facc34">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <P> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit
+                                    rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam,
+                                    risus at semper. </P>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="text-center mt-5">
+                            <img src="./assets/testimonials-2.jpg" alt="" style="border-radius: 50%; width: 10%;">
+                            <div class="text mt-4 pb-5 text-white">
+                                <h3>Sara Wilsson</h3>
+                                <h6>Designer</h6>
+                                <div class="star" style="color: #facc34">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <P> Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid
+                                    cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet
+                                    legam anim culpa. </P>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item">
+                        <div class="text-center mt-5">
+                            <img src="./assets/testimonials-3.jpg" alt="" style="border-radius: 50%; width: 10%;">
+                            <div class="text mt-4 pb-5 text-white">
+                                <h3>Jena Karlis</h3>
+                                <h6>Store owner</h6>
+                                <div class="star" style="color: #facc34">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <P> Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem
+                                    veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint
+                                    minim. </P>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item">
+                        <div class="text-center mt-5">
+                            <img src="./assets/testimonials-4.jpg" alt="" style="border-radius: 50%; width: 10%;">
+                            <div class="text mt-4 pb-5 text-white">
+                                <h3>Matt Branson</h3>
+                                <h6>Freelancer</h6>
+                                <div class="star" style="color: #facc34">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <P> Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim
+                                    fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem
+                                    dolore labore illum veniam. </P>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="text-center mt-5">
+                            <img src="./assets/testimonials-5.jpg" alt="" style="border-radius: 50%; width: 10%;">
+                            <div class="text mt-4 pb-5 text-white">
+                                <h3>John Larson</h3>
+                                <h6>Entrepreneur</h6>
+                                <div class="star" style="color: #facc34">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <P> Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster
+                                    veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam
+                                    culpa fore nisi cillum quid. </P>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#crsl">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#crsl">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="cover9" style="margin-top: 5rem; margin-bottom: 5rem;">
+        <div class="container">
+            <h2 class="heading text-center mb-5 mt-5" style="color:#001973;">FREQUENTLY ASKED QUESTIONS</h2>
+            <div class="accordian accordian-flush w-100">
+                <div class="accordian-item">
+                    <h3 class="accordian-header">
+                        <button class="accordian-button collapsed" data-bs-toggle="collapse" data-bs-target="#acc1"> <i
+                                class="fa-regular fa-circle-question" style="color: blue;"></i> Non
+                            consectetur a erat nam at lectus urna duis? </button>
+                    </h3>
+                    <div class="collapse accordian-collapse" id="acc1">
+                        <div class="accordian-body">
+                            <p> Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non
+                                curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus
+                                non.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordian accordian-flush w-100">
+                <div class="accordian-item">
+                    <h3 class="accordian-header">
+                        <button class="accordian-button collapsed" data-bs-toggle="collapse" data-bs-target="#acc2">
+                            <i class="fa-regular fa-circle-question" style="color: blue;"></i>
+                            Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? </button>
+                    </h3>
+                    <div class="collapse accordian-collapse" id="acc2">
+                        <div class="accordian-body">
+                            <p> Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
+                                velit
+                                laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec
+                                pretium.
+                                Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa
+                                tincidunt dui.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordian accordian-flush w-100">
+                <div class="accordian-item">
+                    <h3 class="accordian-header">
+                        <button class="accordian-button collapsed" data-bs-toggle="collapse" data-bs-target="#acc3">
+                            <i class="fa-regular fa-circle-question" style="color: blue;"></i>
+                            Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? </button>
+                    </h3>
+                    <div class="collapse accordian-collapse" id="acc3">
+                        <div class="accordian-body">
+                            <p> Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
+                                pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum
+                                tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna
+                                molestie at elementum eu facilisis sed odio morbi quis
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordian accordian-flush w-100">
+                <div class="accordian-item">
+                    <h3 class="accordian-header">
+                        <button class="accordian-button collapsed" data-bs-toggle="collapse" data-bs-target="#acc4">
+                            <i class="fa-regular fa-circle-question" style="color: blue;"></i>
+                            Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? </button>
+                    </h3>
+                    <div class="collapse accordian-collapse" id="acc4">
+                        <div class="accordian-body">
+                            <p> Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
+                                velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec
+                                pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus
+                                turpis massa tincidunt dui.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordian accordian-flush w-100">
+                <div class="accordian-item">
+                    <h3 class="accordian-header">
+                        <button class="accordian-button collapsed" data-bs-toggle="collapse" data-bs-target="#acc5">
+                            <i class="fa-regular fa-circle-question" style="color: blue;"></i>
+                            Tempus quam pellentesque nec nam aliquam sem et tortor consequat? </button>
+                    </h3>
+                    <div class="collapse accordian-collapse" id="acc5">
+                        <div class="accordian-body">
+                            <p> Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est
+                                ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit
+                                adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="cover10 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 col-md-4 col-sm-12">
+                    <h2 class="heading" style="color:white;">LOGIS</h2>
+                    <p class="para" style="color: white;">Cras fermentum odio eu feugiat lide par naso tierra. Justo
+                        eget nada terra videa magna derita
+                        valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                    <i class="bi bi-twitter" style="color: white;"></i>
+                    <i class="bi bi-facebook" style="color: white;"></i>
+                    <i class="bi bi-instagram" style="color: white;"></i>
+                    <i class="bi bi-linkedin" style="color: white;"></i>
+                </div>
+                <div class="col-12 col-lg-2 col-md-4 col-sm-12">
+                    <h5 class="heading" style="color: white;">Useful Links</h5>
+                    <ul class="list" style="list-style: none; color: white;">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Terms of Services</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-2 col-md-4 col-sm-12">
+                    <h5 class="heading" style="color: white;">Our Servies</h5>
+                    <ul class="list" style="list-style: none;">
+                        <li><a href="">Web Design</a></li>
+                        <li><a href="">Web Development</a></li>
+                        <li><a href="">Product Management</a></li>
+                        <li><a href="">Marketing</a></li>
+                        <li><a href="">Graphic Design</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-2 col-md-4 col-sm-12">
+                    <h5 class="heading" style="color: white;">Contact us</h5>
+                    <p class="para" style="color: white;">A108 Adam Street <br>
+                        New York, NY 535022 <br>
+                        United States <br> <br>
+
+                        <strong>Phone:</strong> +1 5589 55488 55
+                        <strong>Email:</strong> info@example.com
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <div class="container mt-5" style="color: white; text-align:center">
+            <div class="copyright">
+                © Copyright
+                <strong>Logis</strong>. All Rights Reserved
+            </div>
+            <div class="credit">
+                Designed by
+                <a href="" style="color: white; text-decoration:none;">BootstrapMade</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- <button onclick="topfunction()" id="topbtn">Top</button> -->
+    <button class="btn btn-primary" onclick="topfunction()" id="topbtn"><i class="bi bi-arrow-up"></i></button>
+
+    <script>
+        var topbutton = document.getElementById("topbtn");
+
+        window.onscroll = function () { scrollfunction() };
+
+        function scrollfunction() {
+            if (document.documentElement.scrollTop > 20) {
+                topbutton.style.display = "block";
+            }
+            else {
+                topbutton.style.display = "none";
+            }
+        }
+
+        function topfunction() {
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <script src="bootstrap-5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
